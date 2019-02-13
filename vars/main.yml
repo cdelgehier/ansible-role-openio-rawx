@@ -1,7 +1,7 @@
 ---
 openio_rawx_sysconfig_dir: "/etc/oio/sds/{{ openio_rawx_namespace }}"
 openio_rawx_servicename: "rawx-{{ openio_rawx_serviceid }}"
-
+openio_meta_type: rawx
 #openio_rawx_definition_file: >
 #  "{{ openio_rawx_sysconfig_dir }}/
 #  {{ openio_rawx_servicename }}/{{ openio_rawx_servicename }}.conf"
